@@ -1,5 +1,0 @@
-__v,_id,a_email,a_gender,a_name,a_password,a_phone,a_secret_code,a_verify,createdAt,del_flg,updatedAt
-0,6462deb5d51b944257e6d045,zawphyo@gmail.com,1,Zaw Phyo Aung,12345678,09795659,1231safas24asf,false,2023-05-16T01:39:01.349Z,false,2023-05-16T01:39:01.349Z
-0,6462def3d51b944257e6d04b,linnkoko@gmail.com,1,Linn Ko Ko,12345678,09791130,1231safas24asf,false,2023-05-16T01:40:03.280Z,false,2023-05-16T01:40:03.280Z
-0,6464300e5c5b55ae3c83746f,testingmember1@gmail.com,1,Member 1,12345678,0911223344,,false,2023-05-17T01:38:22.231Z,false,2023-05-17T01:38:22.231Z
-0,64643b0150aa77e7aa861275,testingmember3@gmail.com,1,Member 3,$2a$10$95wKREV/VQ.EYZFZSoQmt.CmXaU0NGWH8cctA0Q2.s9K5fnOhySy.,09111122223333,,false,2023-05-17T02:25:05.485Z,false,2023-05-17T02:25:05.485Z
