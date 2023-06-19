@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./dist/output.css" rel="stylesheet" />
+    <link href="../dist/output.css" rel="stylesheet" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -12,7 +12,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <title>Shipping</title>
+    <title>CheckOut</title>
   </head>
 
   <body class="p-5">
@@ -24,17 +24,24 @@
               Kyaw Gyi-Online Game Store
             </h1>
             <div class="flex md:text-base text-sm">
-              <h4>Information ></h4>
-              <h4 class="font-bold text-orange-500">Shipping ></h4>
-              <h4>Payment</h4>
+              <h4 class="font-bold text-orange-500">Information ></h4>
+              <h4>Shipping ></h4>
+              <h4>payment</h4>
             </div>
+          </div>
+          <h2 class="font-bold">Contact</h2>
+          <p>Username(info@example.com)</p>
+          <a href="loginPage.html"><h2 class="underline">Logout</h2></a>
+          <div>
+            <input type="checkbox" />
+            <span>Email me with news and offers</span>
           </div>
         </header>
         <div class="p-4 md:hidden flex flex-col space-y-8 w-[350px] text-sm">
           <div class="flex items-center justify-between space-x-10">
             <div class="flex items-center space-x-4">
               <img
-                src="./image_files/item-cart-03.jpg"
+                src="../image_files/item-cart-03.jpg"
                 alt="..."
                 class="w-16 shadow-2xl rounded-lg"
               />
@@ -64,41 +71,81 @@
           </div>
         </div>
         <main>
-          <div
-            class="border rounded-xl bg-gray-400 md:w-[400px] w-[340px] p-2 text-xs"
-          >
-            <div
-              class="flex justify-between h-[50.4px] p-2 items-center border-b border-gray-500"
-            >
-              <h5 class="text-[rgba(0,0,0,.5)]">Contact</h5>
-              <h5 class="text-xs underline">info@example.com</h5>
-              <h5 class="underline">Change</h5>
-            </div>
-            <div class="flex justify-between h-[50.4px] p-2 items-center">
-              <h5 class="text-[rgba(0,0,0,.5)]">Ship to</h5>
-              <h5 class="text-xs">Hawaii,United State</h5>
-              <h5 class="underline">Change</h5>
-            </div>
-          </div>
           <div class="flex justify-between">
             <div class="flex flex-col space-y-4">
               <h1 class="font-semibold md:text-4xl text-xl">
                 Shipping Address
               </h1>
-              <div
-                class="flex justify-between md:w-[400px] w-[340px] h-[50.4px] rounded-lg bg-gray-400 p-2 items-center"
-              >
-                <div>
-                  <h5 class="text-xs text-[rgba(0,0,0,.5)]">Standard</h5>
-                </div>
-                <h5 class="font-semibold text-xs">$19.00</h5>
-              </div>
-              <div class="flex justify-between items-center mt-7">
-                <a href="checkout.html"
-                  ><p class="text-xs">< Return to Infomation</p></a
+              <div class="md:w-[400px] w-[340px] flex flex-col space-y-5">
+                <div
+                  class="flex justify-between rounded-lg bg-gray-400 p-2 items-center"
                 >
-                <div class="text-right">
-                  <a href="payment.html"
+                  <div>
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">Saved Address</h5>
+                    <h4>United State(username)</h4>
+                  </div>
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+                <div
+                  class="flex justify-between rounded-lg bg-gray-400 p-2 items-center"
+                >
+                  <div>
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">
+                      Country/Region
+                    </h5>
+                    <h4>United State</h4>
+                  </div>
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+                <div class="flex justify-between items-center">
+                  <div class="w-[165px] rounded-lg bg-gray-400 p-2">
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">
+                      Firstname(Optional)
+                    </h5>
+                    <h4 class="font-semibold">Kyaw</h4>
+                  </div>
+                  <div class="w-[165px] rounded-lg bg-gray-400 p-2">
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">Lastname</h5>
+                    <h4 class="font-semibold">Swar</h4>
+                  </div>
+                </div>
+                <div
+                  class="flex justify-between h-[50.4px] rounded-lg bg-gray-400 p-2 items-center"
+                >
+                  <div>
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">Address</h5>
+                  </div>
+                  <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <div
+                  class="flex justify-between h-[50.4px] rounded-lg bg-gray-400 p-2 items-center"
+                >
+                  <div>
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">
+                      Apartment,Suite,etc(Optional)
+                    </h5>
+                  </div>
+                </div>
+                <div class="flex justify-between items-center">
+                  <div
+                    class="w-[105px] h-[50.4px] rounded-lg bg-gray-400 p-2 flex items-center"
+                  >
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">City</h5>
+                  </div>
+                  <div
+                    class="w-[105px] h-[50.4px] rounded-lg bg-gray-400 p-2 flex justify-between items-center"
+                  >
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">State</h5>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                  </div>
+                  <div
+                    class="w-[105px] h-[50.4px] rounded-lg bg-gray-400 p-2 flex items-center"
+                  >
+                    <h5 class="text-xs text-[rgba(0,0,0,.5)]">Zip Code</h5>
+                  </div>
+                </div>
+                <div class="mt-4 text-right">
+                  <a href="shipping.html"
                     ><button
                       class="text-white text-xs px-6 py-3 bg-orange-500 rounded-full"
                     >
@@ -122,7 +169,7 @@
         <div class="flex items-center justify-between space-x-16">
           <div class="flex items-center space-x-4">
             <img
-              src="./image_files/item-cart-03.jpg"
+              src="../image_files/item-cart-03.jpg"
               alt="..."
               class="w-16 shadow-2xl rounded-lg"
             />
